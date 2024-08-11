@@ -20,7 +20,7 @@ app.post("/add", async (req, res) => {
 });
 
 // Write GET API Code
-app.get("/blogs", async (req, res) => {
+app.get("/employee", async (req, res) => {
   try {
     let data = await EmpModel.find();
     res.send(data);
